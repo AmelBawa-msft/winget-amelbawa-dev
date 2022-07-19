@@ -1,0 +1,18 @@
+﻿PackageIdentifier: IntegrationTests.InstallerValidation
+PackageVersion: 1.0.41331.1 # Inconsistent with msixbundle value
+PackageName: Installer validation
+Publisher: Microsoft Corporation
+PackageUrl: https://code.visualstudio.com
+License: Copyright (c) Microsoft Corporation
+ShortDescription: Test for manifest installer
+Moniker: winget
+PackageFamilyName: Microsoft.DesktopAppInstaller_8wekyb3d8bbwe
+MinimumOSVersion: 10.0.16299.0
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/microsoft/winget-cli/releases/download/v0.1.4331-preview/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.appxbundle
+  InstallerType: msix
+  InstallerSha256: e1b5aa89c7354dd39db38c2ac33f0455c4529eb4cf77f023028d955122ea8377
+PackageLocale: en-US
+ManifestType: singleton
+ManifestVersion: 1.0.0
