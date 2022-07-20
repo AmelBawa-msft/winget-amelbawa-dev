@@ -1,0 +1,18 @@
+﻿PackageIdentifier: IntegrationTests.InstallerValidation
+PackageVersion: 1.0.0.0
+PackageName: Installer validation
+Publisher: Microsoft Corporation
+PackageUrl: https://code.visualstudio.com
+License: Copyright (c) Microsoft Corporation
+ShortDescription: Test for manifest installer
+Moniker: vscode
+PackageFamilyName: 20477fca-282d-49fb-b03e-371dca074f0f_8wekyb3d8bbwe
+MinimumOSVersion: 10.0.0.0 # Inconsistent with msix value
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/microsoft/msix-packaging/blob/master/src/test/testData/unpack/TestAppxPackage_x64.appx?raw=true
+  InstallerType: msix
+  InstallerSha256: 6a2d3683fa19bf00e58e07d1313d20a5f5735ebbd6a999d33381d28740ee07ea
+PackageLocale: en-US
+ManifestType: singleton
+ManifestVersion: 1.0.0
