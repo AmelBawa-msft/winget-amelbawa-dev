@@ -7,7 +7,7 @@ License: Copyright (c) Microsoft Corporation
 ShortDescription: Test for manifest installer
 Moniker: winget
 PackageFamilyName: FakeInstallerForTesting_125rzkzqaqjwj
-# MinimumOSVersion: 10.0.16299.0
+MinimumOSVersion: 10.0.0.0 # Inconsistent with msixbundle value
 Installers:
 - Architecture: x64
   InstallerUrl: https://stpkgmanvalwestustest.blob.core.windows.net/test-installers/TestInstaller.msixbundle
